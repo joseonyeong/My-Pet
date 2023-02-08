@@ -1,0 +1,41 @@
+/*main화면 Best 글*/
+
+article .btnWrap {
+    background-color: brown;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+
+    /*모서리 둥글게*/
+    border-radius: 30px;
+
+    /*상자 중앙 정렬*/
+    margin: auto;
+}
+
+article .btnWrap a {
+    color: white;
+    text-decoration-line: none;
+    font-family: monospace;
+    font-size: 15px;
+    
+    /*박스 안에 글자 정렬*/
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+article .bestWrap {
+    overflow: hidden;
+
+    /*줄바꿈*/
+    flex-wrap: wrap;
+    
+/*     position: relative;
+    padding-top: 50%; 2:1 비율*/
+}
+
+article .bestWrap img {
+    display: inline-block;
+    border: 1px solid darkred;
+}
