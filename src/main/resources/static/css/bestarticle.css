@@ -1,5 +1,10 @@
 /*main화면 Best 글*/
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 article .btnWrap {
     background-color: brown;
     height: 30px;
@@ -26,16 +31,20 @@ article .btnWrap a {
 }
 
 article .bestWrap {
-    overflow: hidden;
-
-    /*줄바꿈*/
-    flex-wrap: wrap;
-    
-/*     position: relative;
-    padding-top: 50%; 2:1 비율*/
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 
 article .bestWrap img {
-    display: inline-block;
+    display: block;
     border: 1px solid darkred;
+    width: 200px;
+    height: 200px;
+    float: left;
+
+    /*사이즈를 컨테이너 크기에 맞춰 조절*/
+    object-fit: cover;
 }
