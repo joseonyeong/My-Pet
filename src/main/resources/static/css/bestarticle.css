@@ -40,11 +40,15 @@ article .bestWrap {
 
 article .bestWrap img {
     display: block;
-    border: 1px solid darkred;
+    /* border: 1px solid darkred; */
     width: 200px;
     height: 200px;
     float: left;
 
     /*사이즈를 컨테이너 크기에 맞춰 조절*/
     object-fit: cover;
+}
+
+footer img {
+    padding-left: 40px;
 }
