@@ -52,11 +52,11 @@ li:first-child {
 .submenu {
     height: 0;
     overflow: hidden;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px gray;
 }
 s
 .menubar > li:hover {
-    background-color: lightslategray;
-
     /*변화 시간*/
     transition-duration: 0.5s;
 }
