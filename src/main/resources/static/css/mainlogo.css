@@ -1,13 +1,18 @@
 header img {
-    width: 400px;
-    height: 150px;
+    /* width: 400px;
+    height: 150px; */
+    width: 100%;
+    height: 100%;
     display: inline-block;
     text-align: center;
 
     padding-left: 550px;
+    position: relative;
 }
 
 .mainLogo {
     display: flex;
     justify-content: center;
 }
+
+
