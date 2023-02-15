@@ -1,8 +1,6 @@
 
-section .firstarticle {
-   
+section .firstarticle {    
     padding-top: 50px;
-    padding-left: 350px;
     text-align: center;
 }
 
@@ -11,18 +9,10 @@ section .firstarticle p {
 }
 
 section .secondarticle {
-    height: 1200px;
-    width: 1200px;
-    border: 1px solid black;
-    padding-left: 350px;
-    padding-top: 100px;
+    height: 2000px;
 }
 
 section .secondarticle img {
-    padding-left: 200px;
-}
-
-section .secondarticle .personality {
-    width: 800px;
-    background-color: lightgray;
+    text-align: center;
+    padding-top: 20px;
 }
